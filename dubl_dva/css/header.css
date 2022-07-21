@@ -1,0 +1,36 @@
+Body{margin: 0;}
+
+.header{
+	font-size: 2vmax;
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	align-items: center;
+	padding: 1% 2% 0% 2%;
+}
+.logo{
+	display: grid;
+  grid-template-columns: max-content 1fr;
+  grid-gap: 2%;
+}
+.logo_inf{
+	margin: 0;
+	align-self: center;
+}
+.enter{
+	justify-self: right;
+	color: inherit;
+	text-decoration: none;
+
+	padding: 0.8vmax 2.4vmax;
+	background-color: #b9f8df;
+	border-radius: 50px; 
+}
+
+
+/*Стили для макета*/
+.header img{
+	width: 4vmax;
+	height: 4vmax;
+	background-color: gray;
+	border-radius: 50%;
+}
